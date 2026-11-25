@@ -1,0 +1,36 @@
+INFO:     Started server process [19388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-11-26 03:06:25,294 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-26 03:06:25,301 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 1825.41it/s]
+2026-11-26 03:06:25,884 | INFO | app.main | RAG embedding model pre-warmed.
+2026-11-26 03:06:36,941 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:06:36,972 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:06:38,476 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:03,895 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:08,878 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:08,880 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:09:10,282 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:56,421 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:58,059 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:09:58,062 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:10:00,904 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:10:41,173 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:10:43,025 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:10:44,552 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:10:44,562 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:10:46,291 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:04,109 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:06,977 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:06,986 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:11:09,496 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:27,356 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:32,730 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:37,083 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:39,848 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:39,869 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:11:45,129 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-26 03:11:45,140 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-26 03:11:48,159 | INFO | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"

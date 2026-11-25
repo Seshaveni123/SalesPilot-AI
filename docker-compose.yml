@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
+      - KNOWLEDGE_BASE_DIR=/app/knowledge_base
+      - FAISS_INDEX_PATH=/app/data/faiss_index
+    volumes:
+      - backend_data:/app/data
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE_URL=http://127.0.0.1:8000/api
+    depends_on:
+      - backend
+
+volumes:
+  backend_data:
